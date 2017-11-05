@@ -8,3 +8,10 @@ cd connect_server
 python manage.py runserver
 
 python manage.py startapp connect_chat_server
+
+echo "# Connect_django_server" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/balaji87/Connect_django_server.git
+git push -u origin master
