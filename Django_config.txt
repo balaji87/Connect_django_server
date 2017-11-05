@@ -1,0 +1,10 @@
+virtualenv env_connect
+cd env_connect\Scripts
+activate
+cd ..
+
+django-admin startproject connect_server
+cd connect_server
+python manage.py runserver
+
+python manage.py startapp connect_chat_server
